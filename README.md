@@ -2,6 +2,8 @@
 It is a theme using on <a herf="https://www.mouyouling.com">MouYouLing.com</a> and powered by <a herf="http://typecho.org/">Typecho)))</a>.
 
 
+Edit by the default theme of typecho 0.9
+
 How to use:
 
 
