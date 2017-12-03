@@ -1,0 +1,315 @@
+body, h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6, code, kbd, pre, samp {
+    font-family: STXihei,"Helvetica Neue",Helvetica,"Hiragino Sans GB","Source Han Sans","Microsoft YaHei","WenQuanYi Zen Hei","WenQuanYi Micro Hei",sans-serif;
+    font-size: 16px;
+}
+a {
+  color: #44447f;
+  text-decoration: none
+}
+
+header{
+  position:fixed;
+  top:0;
+  left:0;
+  right:0;
+  min-height:52px;
+  z-index:10;
+}
+.logo{
+  border-style:soild;
+  border-color: rgba(255,255,254,0);
+  border-width:10px;
+}
+.site-search{
+  position: absolute;
+  top:0;
+  right:0;
+  margin: 10px 10px 10px 0;
+}
+header>.site-name{
+  margin: 15px 0 15px 10%;
+}
+header>li{
+  display:inline;
+}
+.page{
+  position: absolute;
+  left:24%;
+  top:0;
+  margin: 15px 0 15px 0;
+}
+#nav-menu>a {
+  padding: 15px 10px 15px 10px;
+}
+#nav-menu>.current{
+  background-color:rgba(255,255,254,0.1);
+}
+.main-page {
+  margin: 80px 300px 60px 10%;
+  padding: 10px 10px 10px 0px;
+}
+.description {
+  position: absolute;
+  top:0;
+  right: 300px;
+  font-size: 1em;
+  color: #444;
+  margin: 15px 0 0 0;
+}
+.post {
+  padding: 10px 0 10px 20px;
+  margin: 10px 0 10px 0;
+  background-color: rgba(255,255,254,0.5);
+  box-shadow: 5px 5px 5px rgba(136,136,136,0.4);
+  border: 1px solid rgba(255,255,254,0.3);
+  border-radius:10px;
+}
+.post-page {
+  margin: 100px 310px 60px 10%;
+  padding: 10px 20px 10px 20px;
+  background-color: rgba(255,255,254,0.5);
+  box-shadow: 5px 5px 5px rgba(136,136,136,0.4);
+  border: 1px solid rgba(255,255,254,0.3);
+  border-radius:10px;
+}
+.post-data>li,.post-meta>li,.post-near>li {
+  display:inline;
+}
+hr{
+  background-color:rgba(255,255,254,0.5);
+  height:1px;
+  border:none;
+}
+/****搜索框css****/
+fieldset.search {  
+    border: none; 
+    width: 243px; 
+    margin: 0 auto; 
+    /****background: #222;****/
+}
+.search input, .search button { 
+    border: none; 
+    float: left; 
+}
+.search input.box { 
+    color: #222; 
+    font-size: 1.2em; 
+    width: 190px; 
+    height: 15px; 
+    padding: 4px 5px 4px; 
+    background: rgba(255,255,254,0.4); 
+    margin-right: 5px; 
+  border:1px solid rgba(255,255,254,0.4);
+  border-radius:2px;
+} 
+.search input.box:focus { 
+    background: rgba(255,255,254,0.5) url(img/icon-search.png) no-repeat left -38px; 
+    outline: none; 
+}
+::-webkit-input-placeholder { /* WebKit browsers */
+    color:    #aaa;
+    font-family:STXihei,"Helvetica Neue",Helvetica,sans-serif;
+    font-size:0.875em;
+}
+:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+    color:    #aaa;
+    font-family:STXihei,"Helvetica Neue",Helvetica,sans-serif;
+    font-size:0.875em;
+}
+::-moz-placeholder { /* Mozilla Firefox 19+ */
+    color:    #aaa;
+    font-family:STXihei,"Helvetica Neue",Helvetica,sans-serif;
+    font-size:0.875em;
+}
+:-ms-input-placeholder { /* Internet Explorer 10+ */
+    color:    #aaa;
+    font-family:STXihei,"Helvetica Neue",Helvetica,sans-serif;
+    font-size:0.875em;
+}
+.search button.btn { 
+    width: 23px; 
+    height: 23px;
+    cursor: pointer; 
+    text-indent: -9999px; 
+    background: rgba(255,255,254,0.4) url(img/icon-search.png) no-repeat center right;
+  border:1px solid rgba(238,238,237,0.4);
+  border-radius:11px;
+} 
+.search button.btn:hover { 
+    background: rgba(255,255,254,0.5) url(img/icon-search.png) no-repeat bottom right; 
+  border:1px solid rgba(238,238,237,0.5);
+  border-radius:11px;
+}
+/****搜索框css结束****/
+.post-title {
+  font-size: 20px;
+}
+.post-meta {
+  padding: 0;
+}
+pre {
+  padding:10px;
+  background:rgba(255,255,254,0.3);
+  border: 1px solid rgba(255,255,254,0.3);
+  border-radius:5px;
+}
+p>code {
+  background:rgba(255,255,254,0.3);
+  border: 1px solid rgba(255,255,254,0.3);
+  border-radius:3px;
+  color:#580000;
+}
+blockquote {
+  margin: 16px 0 16px 0;
+  padding:10px;
+  background:rgba(255,255,254,0.3);
+  border: 1px solid rgba(255,255,254,0);
+  border-radius:5px;
+}
+blockquote>p{
+  margin:0;
+}
+blockquote>p:before{
+  content: "\" ";
+  color:#fff;
+}
+blockquote>p:after{
+  content: "\"";
+  color:#fff;
+}
+.post-content>h1 {
+  font-size:24px;
+}
+.post-content>h2 {
+  font-size:20px;
+}
+.post-content>p>img{
+  border: 0px solid rgba(255,255,254,0.3);
+  border-radius:5px;
+  width: 100%;
+  margin:-12.5% 0px;
+  position: relative;
+  z-index:5;
+  transform: scale(0.6);
+  transition: all 0.6s ease 0s;  
+  -webkit-transform: scale(0.6);  
+  -webkit-transition: all 0.6s ease 0s;
+}
+.post-content>p>img:active {
+  transform: scale(1);
+  transition: all 0.6s ease 0s;  
+  -webkit-transform: scale(1);  
+  -webkit-transition: all 0.6s ease 0s;
+}
+.sitebar {
+  position: fixed;
+  top: 100px;
+  right:10px;
+  max-width:250px;
+  padding-left: 10px;
+  padding-right: 10px;
+  background-color: rgba(255,255,254,0.5);
+  box-shadow: 5px 5px 5px rgba(136,136,136,0.4);
+  border: 1px solid rgba(255,255,254,0.3);
+  border-radius:10px;
+}
+/****评论css****/
+.comment-list {
+  list-style-type: none;
+  padding: 0;
+  position: relative;
+}
+.comment-author {
+  width: 150px;
+  height: 40px;
+  position: relative;
+}
+.comment-by-author>div>cite:after {
+  content:"√";
+  color:#580000;
+}
+.comment-author>span {
+  width: 32px;
+  height: 32px;
+  margin:4px;
+  position: absolute;
+  z-index:1;
+}
+.comment-author>cite {
+  position: absolute;
+  left: 40px;
+  top:10px;
+}
+.comment-body{
+  position: relative;
+}
+.comment-meta {
+  width: 280px;
+  min-height: 40px;
+  margin-left: 150px;
+  position: absolute;
+  top:10px;
+  z-index:1;
+}
+.comment-content {
+  width: 85%;
+  margin-left: 4px;
+}
+.comment-children {
+  margin-left: 35px;
+  padding: 5px;
+  background-color: rgba(255,255,254,0.15);
+  border: 1px solid rgba(255,255,254,0);
+  border-radius:5px;
+}
+.comment-reply {
+  position: absolute;
+  right: 10px;
+  top: 10px;
+  z-index:2;
+}
+#comment_form>p>input {
+  width:88%;
+  background-color:rgba(255,255,254,0.3);
+  font-size:16px;
+  border-radius:5px;
+}
+#comment_form>p>label {
+  margin-left:10px;
+}
+#comment_form>p>textarea {
+  width: 88%;
+  background: rgba(255,255,254,0.3);
+  resize: none;
+  font-size:16px;
+  border-radius:5px;
+}
+#comment_form>.submitcomments {
+  position: absolute;
+  left: 88%;
+  right: 0;
+  bottom: 7px;
+  margin: 0px 13px;
+}
+#comment_form>.submitcomments>.submit-comments {
+  height: 50px;
+  background-color: rgba(255,255,254,0.5);
+  padding:0px 10px;
+  border: none;
+}
+/****评论css结束****/
+#footer {
+  position:fixed;
+  bottom:0;
+  left:0;
+  right:0;
+  z-index:9;
+}
+#footer>.site {
+  margin: 10px 0 10px 10%;
+}
+#footer>.links {
+  position: absolute;
+  right:10%;
+  margin: 10px 0 10px 0;
+}
