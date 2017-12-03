@@ -10,3 +10,5 @@ How to use:
 Download it and unzip into themes folder of typecho.
 
 Then enjoy it:)
+
+Demo site: <a herf="https://meowcn.com">meowcn.com</a>
