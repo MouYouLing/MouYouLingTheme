@@ -290,6 +290,7 @@ blockquote>p:after{
   right: 0;
   bottom: 7px;
   margin: 0px 13px;
+  border-radius:5px;
 }
 #comment_form>.submitcomments>.submit-comments {
   height: 50px;
