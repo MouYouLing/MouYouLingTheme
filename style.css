@@ -290,13 +290,13 @@ blockquote>p:after{
   right: 0;
   bottom: 7px;
   margin: 0px 13px;
-  border-radius:5px;
 }
 #comment_form>.submitcomments>.submit-comments {
   height: 50px;
   background-color: rgba(255,255,254,0.5);
   padding:0px 10px;
   border: none;
+  border-radius:5px;
 }
 /****评论css结束****/
 #footer {
