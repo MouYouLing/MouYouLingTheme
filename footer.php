@@ -7,7 +7,7 @@
 		<div class="links">友情链接 | <a href="https://www.mouyouling.com" title="某幽灵" target="某幽灵">MouYouLing</a></div>
 		<div class="site">&copy; 2016-<?php echo date('Y'); ?> <a href="<?php $this->options->siteUrl(); ?>"><?php $this->options->title(); ?></a>.
 		<?php _e('由 <a href="http://www.typecho.org">Typecho</a> 强力驱动'); ?>.
-                Theme by <a href="https://www.mouyouling.com/hello/theme-by-mouyouling.html">MouYouLing</a>.</div>
+                Theme by <a href="https://www.mouyouling.com/theme.html">MouYouLing's Theme</a>.</div>
 	</footer>
 		
 	<?php $this->footer(); ?>
