@@ -3,8 +3,11 @@ body, h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6, code, kbd, pre, samp
     font-size: 16px;
 }
 a {
-  color: #44447f;
+  color: #0e0e1f;
   text-decoration: none
+}
+#footer a, .sitebar a, .post-content a {
+  color: #44447f;
 }
 
 header{
@@ -16,9 +19,14 @@ header{
   z-index:10;
 }
 .logo{
-  border-style:soild;
-  border-color: rgba(255,255,254,0);
-  border-width:10px;
+  position:absolute;
+  margin:0px 10px;
+}
+.logo>img{
+  border: 1px solid rgba(255,255,254,0.3);
+  border-radius:10px;
+  width:63px;
+  height:63px;
 }
 .site-search{
   position: absolute;
@@ -45,7 +53,7 @@ header>li{
   background-color:rgba(255,255,254,0.1);
 }
 .main-page {
-  margin: 80px 300px 60px 10%;
+  margin: 80px 300px 80px 10%;
   padding: 10px 10px 10px 0px;
 }
 .description {
@@ -79,6 +87,25 @@ hr{
   background-color:rgba(255,255,254,0.5);
   height:1px;
   border:none;
+}
+.page-navigator {
+	display: inline;
+	position:relative;
+	top:10px;
+}
+.page-navigator>li {
+	display: inline;
+	margin:0px 3px;
+	padding:10px 0px;
+	border: 1px solid rgba(255,255,254,0.3);
+	border-radius:10px;
+	background-color:rgba(255,255,254,0.4);
+}
+.page-navigator>li>a{
+	padding:10px;
+}
+.page-navigator>li.current {
+	background-color:rgba(255,255,254,0.5)!important;
 }
 /****搜索框css****/
 fieldset.search {  
