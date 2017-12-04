@@ -1,6 +1,6 @@
 <!DOCTYPE HTML>
 <script>
-if(location.hostname!="meowcn.com")window.location.assign("https://meowcn.com"+location.pathname);
+/*if(location.hostname!="mouyouling.com")window.location.assign("https://mouyouling.com"+location.pathname);*/
 var d = new Date();
 var bgimgurl="<?php $this->options->cdnUrl() ?>"+"/image/";
 if(screen.availWidth>screen.availHeight)bgimgurl+="bg-"+d.getDate()%13+".jpg";
