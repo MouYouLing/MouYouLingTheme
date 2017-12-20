@@ -2,7 +2,7 @@
 /**
  * 这是MouYouLing为<a href="https://www.mouyouling.com" >MouYouLing.com</a> 量身打造的主题
  * 
- * @package theme-for-MouYouLing.com
+ * @package MouYouLingTheme
  * @author MouYouLing
  * @version 1.0.0
  * @link https://www.mouyouling.com/theme.html
