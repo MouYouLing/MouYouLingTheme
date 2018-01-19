@@ -15,7 +15,7 @@ Demo site: <a href="https://meowcn.com">meowcn.com</a>
 
 特性与功能：
 
-从cdn加载背景图片<code>cdn链接/image/bg-%.jpg</code>，其中%是图片编号，从0开始
+<del>从cdn加载背景图片<code>cdn链接/image/bg-%.jpg</code>，其中%是图片编号，从0开始</del>
 
 顶栏底栏侧栏统统半透明，方框全部做圆角处理
 
