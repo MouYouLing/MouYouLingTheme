@@ -11,7 +11,7 @@ Download it and unzip into themes folder of typecho.
 
 Then enjoy it:)
 
-Demo site: <a href="https://meowcn.com">meowcn.com</a>
+Demo site: <a href="http://www.xingyunbbs.com/">xingyunbbs.com</a>
 
 特性与功能：
 
